@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.6
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 RUN apt-get update --fix-missing \
